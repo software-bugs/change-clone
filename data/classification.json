@@ -1,0 +1,87 @@
+{
+    "Project": {},
+    "Changes": {
+        "Single/multi-chunks": {
+            "singleChunk": {
+                "name": "Single-chunk"
+            },
+            "multiChunks": {
+                "name": "Multi-chunks"
+            }
+        },
+        "Clones": {
+            "typeI": {
+                "name": "Type I"
+            },
+            "typeA": {
+                "name": "Type A"
+            },
+            "typeB": {
+                "name": "Type B"
+            },
+            "typeC": {
+                "name": "Type C"
+            },
+            "typeD": {
+                "name": "Type D"
+            },
+            "noClone": {
+                "name": "No clone"
+            },
+            "notAnalyzed": {
+                "name": "Not analyzed"
+            }
+
+        },
+        "SStuB patterns": {
+            "CHANGE_IDENTIFIER": {
+                "name": "Change Identifier Used"
+            },
+            "CHANGE_NUMERAL": {
+                "name": "Change Numeric Literal"
+            },
+            "CHANGE_MODIFIER": {
+                "name": "Change Modifier"
+            },
+            "SWAP_BOOLEAN_LITERAL": {
+                "name": "Change Boolean Literal"
+            },
+            "DIFFERENT_METHOD_SAME_ARGS": {
+                "name": "Wrong Function Name"
+            },
+            "OVERLOAD_METHOD_MORE_ARGS": {
+                "name": "Same Function More Args"
+            },
+            "OVERLOAD_METHOD_DELETED_ARGS": {
+                "name": "Same Function Less Args"
+            },
+            "CHANGE_CALLER_IN_FUNCTION_CALL": {
+                "name": "Same Function Wrong Caller"
+            },
+            "SWAP_ARGUMENTS": {
+                "name": "Same Function Swap Args"
+            },
+            "CHANGE_OPERATOR": {
+                "name": "Change Binary Operator"
+            },
+            "CHANGE_UNARY_OPERATOR": {
+                "name": "Change Unary Operator"
+            },
+            "CHANGE_OPERAND": {
+                "name": "Change Operand"
+            },
+            "LESS_SPECIFIC_IF": {
+                "name": "Less Specific If"
+            },
+            "MORE_SPECIFIC_IF": {
+                "name": "More Specific If"
+            },
+            "ADD_THROWS_EXCEPTION": {
+                "name": "Missing Throws Exception"
+            },
+            "DELETE_THROWS_EXCEPTION": {
+                "name": "Delete Throws Exception"
+            }
+        }
+    }
+}

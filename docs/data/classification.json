@@ -10,9 +10,6 @@
             }
         },
         "Clones": {
-            "typeI": {
-                "name": "Type I"
-            },
             "typeA": {
                 "name": "Type A"
             },
@@ -25,13 +22,15 @@
             "typeD": {
                 "name": "Type D"
             },
+            "typeE": {
+                "name": "Type E"
+            },
             "noClone": {
                 "name": "No clone"
             },
             "notAnalyzed": {
                 "name": "Not analyzed"
             }
-
         },
         "SStuB patterns": {
             "CHANGE_IDENTIFIER": {
